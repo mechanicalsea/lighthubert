@@ -1,0 +1,88 @@
+# Search space: variable depth and variable ffn embed and sliding window size
+# Scaling dimensions:
+# 1. embed_dim
+# 2. heads_num (heads_num * 64 == atten_dim / qkv_dim), remain head_dim = 64
+# 3. ffn_ratio (ratio to embed_dim)
+# 4. slide_wsz
+supernet:
+  atten_dim: 768
+  embed_dim: 768
+  ffn_ratio: 4.0
+  heads_num: 12
+  layer_num: 12
+search_space:
+  atten_dim:
+    - 256
+    - 384
+    - 512
+  embed_dim:
+    - 256
+    - 384
+    - 512
+  ffn_ratio:
+    - 3.0
+    - 3.5
+    - 4.0
+  heads_num:
+    - 4
+    - 6
+    - 8
+  layer_num:
+    - 10
+    - 11
+    - 12
+subnet:
+  atten_dim:
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+    - 384
+  embed_dim: 384
+  ffn_ratio:
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+    - 4.0
+  ffn_embed:
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+    - 1536
+  heads_num:
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  layer_num: 12

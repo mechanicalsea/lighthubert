@@ -57,7 +57,7 @@ More examples can be found in our [tutorials](./tutorials/LightHuBERT.ipynb).
 This project is licensed under the license found in the LICENSE file in the root directory of this source tree.
 Portions of the source code are based on the [FAIRSEQ](https://github.com/pytorch/fairseq) project.
 
-### Citing LightHuBERT
+### Reference
 
 If you find our work is useful in your research, please cite the following paper:
 

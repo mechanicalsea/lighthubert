@@ -6,7 +6,7 @@
 
 | [**Github**](https://github.com/mechanicalsea/lighthubert) | [**Huggingface**](https://huggingface.co/mechanicalsea/lighthubert) |
 
-Official PyTorch implementation and pretrained models of LightHuBERT.
+The authors' PyTorch implementation and pretrained models of LightHuBERT.
 
 - March 2022: release preprint in [arXiv](?) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert).
 
@@ -63,14 +63,11 @@ If you find our work is useful in your research, please cite the following paper
 
 ```bibtex
 @article{rwang-lighthubert-2022,
-  title={{LightHuBERT}: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT},
-  <!-- author={Rui Wang and Zhihua Wei and Haoran Duan and Shouling Ji and Yang Long and Zhen Hong}, -->
-  <!-- journal={arXiv preprint arXiv:2103.13581}, -->
+  title={{LightHuBERT}: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit {BERT}},
+  author={Rui Wang and Qibing Bai and Junyi Ao and Long Zhou and Zhixiang Xiong and Zhihua Wei and Yu Zhang and Tom Ko and Haizhou Li},
   year={2022},
-  <!-- eprint={2103.13581}, -->
-  archivePrefix={arXiv},
-  primaryClass={eess.AS},
-  <!-- note={arXiv:2103.13581} -->
+  journal={arXiv preprint arXiv:?.?},
+  year={2022}
 }
 ```
 

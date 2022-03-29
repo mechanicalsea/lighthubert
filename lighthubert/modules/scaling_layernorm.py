@@ -1,3 +1,9 @@
+# --------------------------------------------------------
+# LightHuBERT: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT (arxiv pad:after-pre-print)
+# Github source: https://github.com/mechanicalsea/lighthubert
+# Licensed under The MIT License [see LICENSE for details]
+# --------------------------------------------------------
+
 import numbers
 
 import torch

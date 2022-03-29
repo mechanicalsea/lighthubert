@@ -1,14 +1,14 @@
+# --------------------------------------------------------
+# LightHuBERT: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT (arxiv pad:after-pre-print)
+# Github source: https://github.com/mechanicalsea/lighthubert
+# Licensed under The MIT License [see LICENSE for details]
+# --------------------------------------------------------
+
 """
 Sliding window attention.
 - `sliding_attn` implements it via `torch.as_strided` with reducing memory and speedup computation.
 - `sliding_attn_check_mask` implements it via `attn_mask` as global attention.
 - `global_attention_forward` is global attention with full-utterance sliding window size.
-
-Author: Rui Wang
-Email: rwang@tongji.edu.cn
-
-This source code is licensed under the MIT license found in the
-LICENSE file in the root directory of this source tree.
 """
 
 import torch

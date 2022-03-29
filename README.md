@@ -2,11 +2,13 @@
 
 <!--**Compress pre-trained models for speech representation learning**-->
 
-[**LightHuBERT**](?): Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT
+[**LightHuBERT**](?): **Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT**
+
+| [**Github**](https://github.com/mechanicalsea/lighthubert) | [**Huggingface**](https://huggingface.co/mechanicalsea/lighthubert) |
 
 Official PyTorch implementation and pretrained models of LightHuBERT.
 
-- March 2022: release preprint in [arXiv](?) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert)
+- March 2022: release preprint in [arXiv](?) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert).
 
 ## Pre-Trained Models
 
@@ -47,3 +49,33 @@ hs = model.extract_features(wav_input_16khz, ret_hs=True)[0]
 
 print(f"Representation at bottom hidden states: {torch.allclose(rep, hs[-1])}")
 ```
+
+More examples can be found in our [tutorials](./tutorials/LightHuBERT.ipynb).
+
+## License
+
+This project is licensed under the license found in the LICENSE file in the root directory of this source tree.
+Portions of the source code are based on the [FAIRSEQ](https://github.com/pytorch/fairseq) project.
+
+### Citing LightHuBERT
+
+If you find our work is useful in your research, please cite the following paper:
+
+```bibtex
+@article{rwang-lighthubert-2022,
+  title={{LightHuBERT}: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT},
+  <!-- author={Rui Wang and Zhihua Wei and Haoran Duan and Shouling Ji and Yang Long and Zhen Hong}, -->
+  <!-- journal={arXiv preprint arXiv:2103.13581}, -->
+  year={2022},
+  <!-- eprint={2103.13581}, -->
+  archivePrefix={arXiv},
+  primaryClass={eess.AS},
+  <!-- note={arXiv:2103.13581} -->
+}
+```
+
+### Contact Information
+
+For help or issues using LightHuBERT models, please submit a GitHub issue.
+
+For other communications related to LightHuBERT, please contact Rui Wang (`rwang@tongji.edu.cn`).

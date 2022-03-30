@@ -2,13 +2,13 @@
 
 <!--**Compress pre-trained models for speech representation learning**-->
 
-[**LightHuBERT**](?): **Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT**
+[**LightHuBERT**](https://arxiv.org/abs/2203.15610): **Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT**
 
 | [**Github**](https://github.com/mechanicalsea/lighthubert) | [**Huggingface**](https://huggingface.co/mechanicalsea/lighthubert) |
 
 The authors' PyTorch implementation and pretrained models of LightHuBERT.
 
-- March 2022: release preprint in [arXiv](?) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert).
+- March 2022: release preprint in [arXiv](https://arxiv.org/abs/2203.15610) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert).
 
 ## Pre-Trained Models
 
@@ -62,11 +62,10 @@ Portions of the source code are based on the [FAIRSEQ](https://github.com/pytorc
 If you find our work is useful in your research, please cite the following paper:
 
 ```bibtex
-@article{rwang-lighthubert-2022,
+@article{wang2022lighthubert,
   title={{LightHuBERT}: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit {BERT}},
   author={Rui Wang and Qibing Bai and Junyi Ao and Long Zhou and Zhixiang Xiong and Zhihua Wei and Yu Zhang and Tom Ko and Haizhou Li},
-  year={2022},
-  journal={arXiv preprint arXiv:?.?},
+  journal={arXiv preprint arXiv:2203.15610},
   year={2022}
 }
 ```

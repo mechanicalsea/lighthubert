@@ -1,5 +1,5 @@
 # --------------------------------------------------------
-# LightHuBERT: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT (arxiv pad:after-pre-print)
+# LightHuBERT: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT (https://arxiv.org/pdf/2203.15610.pdf)
 # Github source: https://github.com/mechanicalsea/lighthubert
 # Licensed under The MIT License [see LICENSE for details]
 # Based on fairseq code bases

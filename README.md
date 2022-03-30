@@ -4,7 +4,7 @@
 
 [**LightHuBERT**](https://arxiv.org/abs/2203.15610): **Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit BERT**
 
-| [**Github**](https://github.com/mechanicalsea/lighthubert) | [**Huggingface**](https://huggingface.co/mechanicalsea/lighthubert) |
+| [**Github**](https://github.com/mechanicalsea/lighthubert) | [**Huggingface**](https://huggingface.co/mechanicalsea/lighthubert) | [**SUPERB Leaderboard**](https://superbbenchmark.org/leaderboard) |
 
 The authors' PyTorch implementation and pretrained models of LightHuBERT.
 
@@ -51,6 +51,10 @@ print(f"Representation at bottom hidden states: {torch.allclose(rep, hs[-1])}")
 ```
 
 More examples can be found in our [tutorials](./tutorials/LightHuBERT.ipynb).
+
+## Universal Representation Evaluation on SUPERB
+
+![SUPERB Leaderboard](./tutorials/SUPERB_leaderboard.png)
 
 ## License
 

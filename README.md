@@ -20,6 +20,19 @@ The authors' PyTorch implementation and pretrained models of LightHuBERT.
 
 Actually, the pre-trained is trained in `common.fp16: true` so that we can perform model inference with `fp16` weights.
 
+## Requirements and Installation
+
+- PyTorch version >= 1.8.1
+- Python version >= 3.8.0
+- numpy version >= 1.20.3
+- To install lighthubert:
+
+```sh
+git clone git@github.com:mechanicalsea/lighthubert.git
+cd lighthubert
+pip install --editable .
+```
+
 ## Load Pre-Trained Models for Inference
 
 ```python

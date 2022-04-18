@@ -23,8 +23,8 @@ Actually, the pre-trained is trained in `common.fp16: true` so that we can perfo
 ## Requirements and Installation
 
 - PyTorch version >= 1.8.1
-- Python version >= 3.8.0
-- numpy version >= 1.20.3
+- Python version >= 3.6
+- numpy version >= 1.19.3
 - To install lighthubert:
 
 ```sh

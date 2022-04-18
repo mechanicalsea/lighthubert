@@ -48,7 +48,7 @@ requirements = [
     "torch>=1.8.1",
     "torchaudio>=0.8.1",
     "torchvision>=0.9.1",
-    "numpy>=1.20.3",
+    "numpy>=1.19.3",
 ]
 
 
@@ -65,6 +65,8 @@ def do_setup(package_data):
         classifiers=[
             "Intended Audience :: Science/Research",
             "License :: OSI Approved :: MIT License",
+            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
             "Topic :: Scientific/Engineering :: Artificial Intelligence :: Speech",
         ],
@@ -82,7 +84,7 @@ def do_setup(package_data):
             ]
         ),
         # package_data=package_data,
-        python_requires=">=3.8",
+        python_requires=">=3.6",
         install_requires=requirements,
     )
 

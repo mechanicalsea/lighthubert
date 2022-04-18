@@ -18,6 +18,8 @@ The authors' PyTorch implementation and pretrained models of LightHuBERT.
 |LightHuBERT Small| [960 hrs LibriSpeech](http://www.openslr.org/12) | huggingface: [lighthubert/lighthubert_small.pt](https://huggingface.co/mechanicalsea/lighthubert/resolve/main/lighthubert_small.pt) |
 |LightHuBERT Stage 1| [960 hrs LibriSpeech](http://www.openslr.org/12) | huggingface: [lighthubert/lighthubert_stage1.pt](https://huggingface.co/mechanicalsea/lighthubert/resolve/main/lighthubert_stage1.pt) |
 
+Actually, the pre-trained is trained in `common.fp16: true` so that we can perform model inference with `fp16` weights.
+
 ## Load Pre-Trained Models for Inference
 
 ```python

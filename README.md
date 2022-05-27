@@ -8,6 +8,7 @@
 
 The authors' PyTorch implementation and pretrained models of LightHuBERT.
 
+- May 2022: LightHuBERT Small is available in [s3prl](https://github.com/s3prl/s3prl/blob/68c99750605b2221611a5eb201b59c2cc42ad5f1/s3prl/upstream/lighthubert/expert.py).
 - March 2022: release preprint in [arXiv](https://arxiv.org/abs/2203.15610) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert).
 
 ## Pre-Trained Models

@@ -487,10 +487,10 @@ class LightHuBERT(nn.Module):
         logger.info(f"search space ({self.supernet.num_subnets:,} subnets): {self.supernet.search_space}")
         # min subnet
         total_params = subnet_params(self.supernet.min_subnet)
-        logger.info(f"min subnet ({total_params/1e6:.0f} Params): {self.supernet.min_subnet}")
+        logger.info(f"min subnet ({total_params/1e6:.0f}M Params): {self.supernet.min_subnet}")
         # max subnet
         total_params = subnet_params(self.supernet.max_subnet)
-        logger.info(f"max subnet ({total_params/1e6:.0f} Params): {self.supernet.max_subnet}")
+        logger.info(f"max subnet ({total_params/1e6:.0f}M Params): {self.supernet.max_subnet}")
 
     def _switch_slide_attention(self, slide_mode = "stride"):
         """Set sliding attention manner to either stride or mask."""

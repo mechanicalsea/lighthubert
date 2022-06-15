@@ -8,6 +8,7 @@
 
 The authors' PyTorch implementation and pretrained models of LightHuBERT.
 
+- June 2022: LightHuBERT has been accepted to Interspeech 2022
 - May 2022: LightHuBERT Small is available in [s3prl](https://github.com/s3prl/s3prl/blob/68c99750605b2221611a5eb201b59c2cc42ad5f1/s3prl/upstream/lighthubert/expert.py).
 - March 2022: release preprint in [arXiv](https://arxiv.org/abs/2203.15610) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert).
 
@@ -72,6 +73,20 @@ More examples can be found in our [tutorials](./tutorials/LightHuBERT.ipynb).
 
 ![SUPERB Leaderboard](./tutorials/SUPERB_leaderboard.png)
 
+## Profiling LightHuBERT
+
+As mentioned in [Profiling Tool for SLT2022 SUPERB Challenge](https://github.com/B06901052/DeepSpeed/tree/superb-challenge), we profiling the `lighthubert` in s3prl.
+
+```sh
+cd DeepSpeed
+# lighthubert_small
+python testing/s3prl_profiling_test.py -u lighthubert_small --libri_root "libri_root"
+# lighthubert_base
+python testing/s3prl_profiling_test.py -u lighthubert_base --libri_root "libri_root"
+# lighthubert_stage1
+python testing/s3prl_profiling_test.py -u lighthubert_stage1 --libri_root "libri_root"
+```
+
 ## License
 
 This project is licensed under the license found in the LICENSE file in the root directory of this source tree.
@@ -82,10 +97,10 @@ Portions of the source code are based on the [FAIRSEQ](https://github.com/pytorc
 If you find our work is useful in your research, please cite the following paper:
 
 ```bibtex
-@article{wang2022lighthubert,
+@inproceedings{wang2022lighthubert,
   title={{LightHuBERT}: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit {BERT}},
   author={Rui Wang and Qibing Bai and Junyi Ao and Long Zhou and Zhixiang Xiong and Zhihua Wei and Yu Zhang and Tom Ko and Haizhou Li},
-  journal={arXiv preprint arXiv:2203.15610},
+  booktitle={Proceedings of the Interspeech},
   year={2022}
 }
 ```

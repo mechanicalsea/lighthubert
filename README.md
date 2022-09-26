@@ -8,6 +8,7 @@
 
 The authors' PyTorch implementation and pretrained models of LightHuBERT.
 
+- September 2022: Published LightHuBERT paper has been available in [ISCA Archive](https://www.isca-speech.org/archive/interspeech_2022/wang22t_interspeech.html)
 - June 2022: LightHuBERT has been accepted to Interspeech 2022
 - May 2022: LightHuBERT Small is available in [s3prl](https://github.com/s3prl/s3prl/blob/68c99750605b2221611a5eb201b59c2cc42ad5f1/s3prl/upstream/lighthubert/expert.py).
 - March 2022: release preprint in [arXiv](https://arxiv.org/abs/2203.15610) and checkpoints in [huggingface](https://huggingface.co/mechanicalsea/lighthubert).
@@ -100,8 +101,13 @@ If you find our work is useful in your research, please cite the following paper
 @inproceedings{wang2022lighthubert,
   title={{LightHuBERT}: Lightweight and Configurable Speech Representation Learning with Once-for-All Hidden-Unit {BERT}},
   author={Rui Wang and Qibing Bai and Junyi Ao and Long Zhou and Zhixiang Xiong and Zhihua Wei and Yu Zhang and Tom Ko and Haizhou Li},
-  booktitle={Proceedings of the Interspeech},
-  year={2022}
+  booktitle={Proc. Interspeech},
+  month = {sep},
+  number = {September},
+  pages = {1686--1690},
+  year={2022},
+  doi = {10.21437/Interspeech.2022-10269},
+  url = {https://www.isca-speech.org/archive/interspeech_2022/wang22t_interspeech.html},
 }
 ```
 
